@@ -11,7 +11,7 @@
 ### 🧑‍💻 Authors  
 **Tanishq Gupta**, **Sourabh Hukkeri**, **Tushar Singh**  
 *Department of Humanities and Social Sciences, Indian Institute of Technology Roorkee*  
-📅 *October 2025*
+📅 *November 2025*
 
 ---
 
@@ -125,7 +125,21 @@ $$
 
 ---
 
-## 🧩 Repository Structure  
+## 🧩 Repository Structure
+
+```
+Revisiting-the-Consumption-based-CAPM-in-India/
+├── data/                       # Raw and processed datasets used in model estimation
+├── cay/                        # Files related to construction of the Indian 'cay' variable
+├── Fama-French-portfolios/     # Monthly returns for the 6 Fama–French size/value portfolios (India)
+├── notebook/                   # Jupyter notebooks for analysis and visualization
+│   ├── CCAPM_India_Replication.ipynb   # Main end-to-end workflow (data → models → results)
+│   └── return_plots.ipynb              # Standalone plotting + summary notebook
+├── scripts/                    # Helper Python scripts 
+├── LICENSE                     # MIT License 
+└── README.md                   # Project overview, usage instructions, and documentation
+```
+
 
 
 ---
@@ -148,7 +162,7 @@ This project is released under the **MIT License** – you’re free to use, mod
 ## 🌟 Acknowledgements  
 
 This project was completed as part of the **Financial Economics coursework** under the *Department of Humanities and Social Sciences, IIT Roorkee*.  
-Special thanks to the course instructors and peers for insightful feedback and discussions.
+Special thanks to Prof. Manish Kumar Singh, Mr. Sidharth, Mr. Abhishek Seth and peers for insightful feedback and discussions.
 
 ---
 
