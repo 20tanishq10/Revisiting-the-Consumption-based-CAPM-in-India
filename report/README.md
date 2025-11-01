@@ -3,7 +3,7 @@
 This folder contains the final report for the project **"Asset Pricing Models on Indian Equity Markets (2014–2025)"**.
 
 ## Files
-- `return_analysis_report.pdf` – Final submitted PDF report
+- `Report.pdf` – Final submitted PDF report
 
 The report summarizes:
 - Dataset & preprocessing steps
