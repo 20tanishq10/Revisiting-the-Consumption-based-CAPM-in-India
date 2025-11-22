@@ -78,3 +78,43 @@ Thus, risk premia may be **state-dependent**, implying that a **conditional mode
   ```math
   R_{i,t+1} = \alpha_i + \beta_i f_{t+1} + \beta_{cay} (cay_t \cdot f_{t+1}) + \varepsilon_{t+1}
 
+The residual component (uₜ) represents deviations from equilibrium and is used as the consumption–wealth ratio:
+```math
+  {cay}_t = \hat{u}_t
+```
+This follows the macro-finance intuition, where cayₜ captures household expectations about future returns and economic states.
+
+### Time-Series Estimation
+For each test portfolio i, we estimate:
+```math
+R_{i,t} - R_{f,t} = \alpha_i + \beta_i' f_t + \epsilon_{i,t}.
+```
+
+### Cross-Sectional (Fama–MacBeth) Regression
+The second step estimates the risk prices:
+```math
+R_{i,t} - R_{f,t} = \lambda_{0,t} + \lambda_t' \hat{\beta}_i + u_{i,t}
+```
+
+# Model Evaluation Criteria
+| Test | Purpose |
+|---------|--------|
+| **Pricing Errors** | Model Misspecification |
+| **Cross-sectional R-square** | Exxplanatory Power |
+| **Shanken Correction** | Bias adjustment |
+| **GRS Test** | Joint rejection of model |
+
+# Key Empirical Findings
+| Outcome | Interpretation |
+|---------|--------|
+| **CAPM & CCAPM rejected** | High pricing errors, low explanatory power |
+| **Scaled Models improve fit** | Indicates time-varying risk premia |
+| **Scaled CCAPM performs best** | Comparable to Fama–French model |
+| **State-dependent betas** | Bad-state risk is priced more heavily |
+
+# Conclusion
+> The consumption–wealth ratio cayₜ effectively captures time-variation in risk premia and significantly improves model performance in Indian markets.
+                
+
+# Contact
+Email: tanishq_g@hs.iitr.ac.in
